@@ -1,0 +1,33 @@
+.e-icons {
+  font-family: "e-icons";
+}
+
+.custom.e-treeview .e-list-item .e-icon-expandable::before {
+  content: "\e729";
+}
+
+.custom.e-treeview .e-list-item .e-icon-collapsible:before {
+  content: "\e701";
+  /* font-size: 16px; */
+}
+
+.e-list-parent {
+  padding: 0;
+}
+
+.e-list-parent li {
+  padding: 10px;
+}
+
+.e-icons {
+  float: right;
+  margin-right: 10px;
+}
+
+.e-list-text {
+  font-size: 16px;
+}
+
+.e-ul {
+  list-style-type: none;
+}
